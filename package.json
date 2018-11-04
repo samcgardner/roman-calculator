@@ -1,0 +1,16 @@
+{
+  "name": "roman-calculator",
+  "version": "1.0.0",
+  "description": "A basic roman numeral based calculator that can also evaluate arbitrary javascript",
+  "main": "calculator.js",
+  "repository": "https://github.com/samcgardner/roman-calculator",
+  "author": "Sam Gardner",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
+}

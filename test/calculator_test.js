@@ -9,7 +9,7 @@ describe('Test roman calculator', function () {
         assert.equal('II', evaluate('I + I'));
     });
     it('Performs subtraction', function () {
-        assert.equal('I', evaluate('I - I'))
+        assert.equal('I', evaluate('II - I'))
     });
     it('Performs multiplication', function () {
         assert.equal('VI', evaluate('II * III'))

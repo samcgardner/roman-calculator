@@ -1,7 +1,7 @@
 var romans = require('roman-numerals');
 
-const numeralRegex = /[IVXLCDM]+/
-const exponentRegex = /\^/
+const numeralRegex = /[IVXLCDM]+/g
+const exponentRegex = /\^/g
 
 module.exports = function (input) {
     parsedInput = input.replace(numeralRegex, (string) => romans.toArabic(string))

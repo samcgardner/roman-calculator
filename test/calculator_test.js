@@ -2,6 +2,9 @@ var assert = require('assert');
 var evaluate = require('../src/calculator.js');
 
 describe('Test roman calculator', function () {
+    it('Evaluates numeric literals', function () {
+        assert.equal('I', evaluate('I'))
+    })
     it('Performs simple addition', function () {
         assert.equal('II', evaluate('I + I'));
     });

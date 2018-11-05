@@ -15,9 +15,9 @@ describe('Test roman calculator', function () {
         assert.equal('II', evaluate('VI / III'))
     });
     it('Exponentiates', function () {
-        assert.equal('IX', evaluate('3 ^ 2'))
+        assert.equal('IX', evaluate('III ^ II'))
     });
     it('Evaluates brackets first as required', function () {
-        assert.equal('XV', evaluate('3 * (3 + 2)'))
+        assert.equal('XV', evaluate('III * (III + II)'))
     })
 });
